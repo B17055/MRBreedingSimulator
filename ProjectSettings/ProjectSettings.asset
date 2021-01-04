@@ -602,11 +602,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: BreedingMRproject
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: OITresearch
+  metroCertificateIssuer: OITresearch
+  metroCertificateNotAfter: 00933d113ef7d701
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: 
