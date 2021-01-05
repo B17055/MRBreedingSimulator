@@ -181,14 +181,14 @@ static Il2CppMethodPointer s_methodPointers[52] =
 };
 static const int32_t s_InvokerIndices[52] = 
 {
-	1815,
+	1817,
 	1111,
 	95,
 	31,
 	30,
-	1966,
+	1968,
 	23,
-	1967,
+	1969,
 	14,
 	23,
 	23,
@@ -216,7 +216,7 @@ static const int32_t s_InvokerIndices[52] =
 	26,
 	23,
 	26,
-	1815,
+	1817,
 	1111,
 	14,
 	10,
@@ -230,8 +230,8 @@ static const int32_t s_InvokerIndices[52] =
 	23,
 	23,
 	31,
-	1379,
-	2332,
+	1381,
+	2334,
 	3,
 };
 extern const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_WindowsVoiceInputCodeGenModule;

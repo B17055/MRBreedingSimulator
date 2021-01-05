@@ -577,6 +577,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "GameController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "MenuObjectCheck",
             "moduleName": "",
             "usedInScenes": []
@@ -584,14 +591,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "TimeLimitDestroy",
+            "fullManagedTypeName": "ObjectGenerate",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "WalkTest",
+            "fullManagedTypeName": "TimeLimitDestroy",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -781,6 +788,13 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.Solvers.TapToPlace",
             "moduleName": "",
             "usedInScenes": []
         },

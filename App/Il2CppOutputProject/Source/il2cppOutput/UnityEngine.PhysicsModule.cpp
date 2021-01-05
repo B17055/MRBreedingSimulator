@@ -4126,6 +4126,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_angularVelocity_m1839DCBC8
 		return;
 	}
 }
+// System.Void UnityEngine.Rigidbody::set_useGravity(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_useGravity_mB0D957A9D8A9819E18D2E81F465C5C0B60CBC6DA (Rigidbody_tE0A58EE5A1F7DC908EFFB4F0D795AC9552A750A5 * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Rigidbody_set_useGravity_mB0D957A9D8A9819E18D2E81F465C5C0B60CBC6DA_ftn) (Rigidbody_tE0A58EE5A1F7DC908EFFB4F0D795AC9552A750A5 *, bool);
+	static Rigidbody_set_useGravity_mB0D957A9D8A9819E18D2E81F465C5C0B60CBC6DA_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody_set_useGravity_mB0D957A9D8A9819E18D2E81F465C5C0B60CBC6DA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::set_useGravity(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Boolean UnityEngine.Rigidbody::get_isKinematic()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Rigidbody_get_isKinematic_mCF624F7C1C78267224EFBEAF9B4FD72CDE56CEB2 (Rigidbody_tE0A58EE5A1F7DC908EFFB4F0D795AC9552A750A5 * __this, const RuntimeMethod* method)
 {

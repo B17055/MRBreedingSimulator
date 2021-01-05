@@ -56,9 +56,10 @@
 		<type fullname="UnityEngine.PhysicMaterial" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="GameController" preserve="nothing"/>
 		<type fullname="MenuObjectCheck" preserve="nothing"/>
+		<type fullname="ObjectGenerate" preserve="nothing"/>
 		<type fullname="TimeLimitDestroy" preserve="nothing"/>
-		<type fullname="WalkTest" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.AnimatedCursor" preserve="nothing"/>
@@ -88,6 +89,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.TapToPlace" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile" preserve="nothing"/>

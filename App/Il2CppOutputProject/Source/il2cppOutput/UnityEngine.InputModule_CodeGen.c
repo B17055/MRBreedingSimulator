@@ -57,13 +57,13 @@ static const int32_t s_InvokerIndices[10] =
 {
 	111,
 	785,
-	2185,
+	2187,
 	26,
 	3,
 	140,
-	1418,
+	1420,
 	536,
-	1403,
+	1405,
 	810,
 };
 extern const Il2CppCodeGenModule g_UnityEngine_InputModuleCodeGenModule;
