@@ -7,16 +7,14 @@ public class ObjectGenerate : MonoBehaviour
     //配置する距離
     public Vector3 offset = new Vector3();
 
-    //Prefab登録
-    public GameObject CagePrefab;
+    //カメラ＆Prefab登録
+    public GameObject cam;
+    public GameObject Prefab;
 
-    //Prefab生成処理_Cage
-    public void GenerateCage()
+    //Prefab生成処理
+    public void GeneratePrefab()
     {
-        Vector3 position = transform.position +
-                transform.up * offset.y +
-                transform.right * offset.x +
-                transform.forward * offset.z;
-        Instantiate(CagePrefab, position, transform.rotation);
+        Vector3 position = cam.transform.position + transform.forward * offset.z;
+        Instantiate(Prefab, position, transform.rotation);
     }
 }
