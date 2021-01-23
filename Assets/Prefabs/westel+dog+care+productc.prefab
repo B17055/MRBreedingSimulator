@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2389945494443114060}
   - component: {fileID: 2389945494443114063}
   - component: {fileID: 2389945494443114062}
+  - component: {fileID: -8067421374245445022}
   m_Layer: 0
   m_Name: westel+dog+care+productc
   m_TagString: Untagged
@@ -155,7 +156,7 @@ MonoBehaviour:
   smoothing: 1
   lifetime: 0
   autoStart: 0
-  defaultPlacementDistance: 3
+  defaultPlacementDistance: 2
   maxRaycastDistance: 20
   surfaceNormalOffset: 0
   keepOrientationVertical: 1
@@ -192,3 +193,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: -8067421374245445022}
+        m_MethodName: SetPos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &-8067421374245445022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5911862734502029131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba8baa3d4ef2ab40a1b2bbf1e2f0732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plane: {fileID: 9026514176375293151, guid: a28d4ffd32a640b40a7859a9bc65fa3f, type: 3}

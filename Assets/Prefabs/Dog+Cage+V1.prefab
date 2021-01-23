@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7532924218370853175}
   - component: {fileID: 7532924218370853164}
   - component: {fileID: 7532924218370853165}
+  - component: {fileID: -7017439224854458275}
   m_Layer: 0
   m_Name: Dog+Cage+V1
   m_TagString: Untagged
@@ -160,7 +161,7 @@ MonoBehaviour:
   smoothing: 1
   lifetime: 0
   autoStart: 0
-  defaultPlacementDistance: 3
+  defaultPlacementDistance: 2
   maxRaycastDistance: 20
   surfaceNormalOffset: 0
   keepOrientationVertical: 1
@@ -197,6 +198,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: -7017439224854458275}
+        m_MethodName: SetPos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &7532924218370853165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,3 +228,16 @@ MonoBehaviour:
   additionalOffset: {x: 0, y: 0, z: 0}
   additionalRotation: {x: 0, y: 0, z: 0}
   updateSolvers: 1
+--- !u!114 &-7017439224854458275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993898075120324666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba8baa3d4ef2ab40a1b2bbf1e2f0732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plane: {fileID: 9026514176375293151, guid: a28d4ffd32a640b40a7859a9bc65fa3f, type: 3}

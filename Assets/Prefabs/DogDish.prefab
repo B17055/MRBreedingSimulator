@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6015323755620462982}
   - component: {fileID: 6015323755620462983}
   - component: {fileID: 6015323755620462980}
+  - component: {fileID: -3070744398413877516}
   m_Layer: 0
   m_Name: DogDish
   m_TagString: Untagged
@@ -103,10 +104,10 @@ MonoBehaviour:
   smoothing: 1
   lifetime: 0
   autoStart: 0
-  defaultPlacementDistance: 2
+  defaultPlacementDistance: 1.5
   maxRaycastDistance: 20
   surfaceNormalOffset: 0
-  keepOrientationVertical: 0
+  keepOrientationVertical: 1
   rotateAccordingToSurface: 0
   magneticSurfaces:
   - serializedVersion: 2
@@ -140,6 +141,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: -3070744398413877516}
+        m_MethodName: SetPos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &-3070744398413877516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6015323755620462981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba8baa3d4ef2ab40a1b2bbf1e2f0732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plane: {fileID: 9026514176375293151, guid: a28d4ffd32a640b40a7859a9bc65fa3f, type: 3}
 --- !u!1001 &6015323754612726095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -147,11 +172,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6015323755620462976}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 914fef8a0fea3c74abbac2356ea80275,
-        type: 3}
-      propertyPath: m_Name
-      value: doggy+dish
-      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 914fef8a0fea3c74abbac2356ea80275,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -221,6 +241,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 914fef8a0fea3c74abbac2356ea80275,
+        type: 3}
+      propertyPath: m_Name
+      value: doggy+dish
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 914fef8a0fea3c74abbac2356ea80275, type: 3}

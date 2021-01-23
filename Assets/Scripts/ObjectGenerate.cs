@@ -9,12 +9,12 @@ public class ObjectGenerate : MonoBehaviour
 
     //カメラ＆Prefab登録
     public GameObject cam;
-    public GameObject Prefab;
+    public GameObject prefab;
 
     //Prefab生成処理
     public void GeneratePrefab()
     {
         Vector3 position = cam.transform.position + transform.forward * offset.z;
-        Instantiate(Prefab, position, transform.rotation);
+        Instantiate(prefab, position, transform.rotation);
     }
 }
