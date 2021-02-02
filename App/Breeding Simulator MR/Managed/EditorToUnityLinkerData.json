@@ -351,6 +351,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CharacterController",
+            "fullManagedTypeName": "UnityEngine.CharacterController",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/GameScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MeshCollider",
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
@@ -592,6 +601,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "ObjectGenerate",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PositionSet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "RetrieverAI",
             "moduleName": "",
             "usedInScenes": []
         },

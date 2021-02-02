@@ -1288,7 +1288,6 @@
     <Compile Include="Assets\Scripts\PositionSet.cs" />
     <Compile Include="Assets\Scripts\RetrieverAI.cs" />
     <Compile Include="Assets\Scripts\TimeLimitDestroy.cs" />
-    <Compile Include="Assets\Scripts\WalkTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MRTK\Providers\License.txt" />

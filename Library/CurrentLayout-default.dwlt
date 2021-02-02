@@ -348,14 +348,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 311.33334
+    x: 303.33334
     y: 72.66667
-    width: 591
+    width: 578
     height: 296
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 19856
+  m_LastSelectedObjectID: 256910
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -586,20 +586,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Toon/Toon_Dogs/Golden_Retriever/FBX
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Toon/Toon_Dogs/Golden_Retriever/FBX
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Owner\Documents\Unity\Breeding Simulator MR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 42}
-    m_SelectedIDs: 425f0000
-    m_LastClickedID: 24386
-    m_ExpandedIDs: 00000000e85b0000ea5b0000ec5b0000ee5b0000f05b0000f25b0000f45b0000f65b0000f85b0000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: f25b0000
+    m_LastClickedID: 23538
+    m_ExpandedIDs: 00000000f25b0000f45b0000f65b0000f85b0000fa5b0000fc5b0000fe5b0000005c0000025c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -627,7 +627,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e85b0000ea5b0000ec5b0000ee5b0000f05b0000f25b0000f45b0000f65b0000f85b0000
+    m_ExpandedIDs: 00000000f25b0000f45b0000f65b0000f85b0000fa5b0000fc5b0000fe5b0000005c0000025c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -655,21 +655,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000f2640000986400002465000000000000c4640000265f00006a6700005465000094660000b8660000
+    m_ExpandedInstanceIDs: c6230000f2640000986400002465000000000000c4640000265f00006a6700005465000094660000b86600001c610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: RetrieverAI
+      m_OriginalName: RetrieverAI
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 14224
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
@@ -679,7 +679,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 360}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 195
@@ -715,7 +715,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 151
+    m_CachedPref: -151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
@@ -750,9 +750,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 904d0000
-      m_LastClickedID: 19856
-      m_ExpandedIDs: 70fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8210ffffb210ffff1e13ffff5014ffff8014ffff8a14ffff3e15ffff7015ffffee17ffffce22fffffe22ffff0623ffff8823ffffba23ffffc823ffff6024ffff9024fffffe26fffffa52ffff2a53ffff3253ffffc853fffffa53ffff7856ffff8671ffffb671ffffbe71ffff5472ffff8472fffff274ffffb0a3ffff04a4ffff9cf2ffff3afaffff70fbffff90e00200c8e002009ce1020048e30300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -812,9 +812,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.6829946, y: -8.674466, z: 21.155857}
+    m_Target: {x: 20.880058, y: -6.1243834, z: 12.762165}
     speed: 2
-    m_Value: {x: 3.6829946, y: -8.674466, z: 21.155857}
+    m_Value: {x: 20.880058, y: -6.1243834, z: 12.762165}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -860,13 +860,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.20998894, y: 0.112636104, z: -0.024372935, w: 0.97091895}
+    m_Target: {x: 0.10640572, y: 0.5278286, z: -0.06686403, w: 0.8400398}
     speed: 2
-    m_Value: {x: 0.20998265, y: 0.11263274, z: -0.024372205, w: 0.9708899}
+    m_Value: {x: 0.10640238, y: 0.527812, z: -0.066861935, w: 0.84001344}
   m_Size:
-    m_Target: 23.376303
+    m_Target: 35.115112
     speed: 2
-    m_Value: 23.376303
+    m_Value: 35.115112
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1001,6 +1001,6 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 390
-    width: 475
+    width: 463
     height: 250
   m_ViewDataDictionary: {fileID: 0}

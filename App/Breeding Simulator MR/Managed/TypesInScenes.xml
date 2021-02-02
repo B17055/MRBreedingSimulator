@@ -32,6 +32,7 @@
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
+		<type fullname="UnityEngine.CharacterController" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
@@ -59,6 +60,8 @@
 		<type fullname="GameController" preserve="nothing"/>
 		<type fullname="MenuObjectCheck" preserve="nothing"/>
 		<type fullname="ObjectGenerate" preserve="nothing"/>
+		<type fullname="PositionSet" preserve="nothing"/>
+		<type fullname="RetrieverAI" preserve="nothing"/>
 		<type fullname="TimeLimitDestroy" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">

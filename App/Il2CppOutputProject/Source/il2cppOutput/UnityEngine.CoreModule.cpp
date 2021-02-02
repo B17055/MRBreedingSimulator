@@ -544,6 +544,8 @@ struct ExtensionOfNativeClassAttribute_t595E5601C3ACC7C8A8C5AEE90A05E7C7FF977FDF
 struct FrameTimingU5BU5D_t85032E841FA7033B896FB52B489D4CE5E2266FB3;
 // UnityEngine.GameObject
 struct GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F;
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_tBF9D474747511CF34A040A1697E34C74C19BB520;
 // UnityEngine.Gradient
 struct Gradient_t35A694DDA1066524440E325E582B01E33DE66A3A;
 // UnityEngine.GradientAlphaKey[]
@@ -1097,6 +1099,7 @@ struct DisallowMultipleComponentU5BU5D_t59E317D853AAC982D5D18D4C1581422FC151F7E3
 struct DisplayU5BU5D_tB2AB0FDB3B2E9FD784D5100C18EB0ED489A2CCC9;
 struct ExecuteInEditModeU5BU5D_tAE8DA030BEBA505907556F161EB49FD565976C80;
 struct FrameTimingU5BU5D_t85032E841FA7033B896FB52B489D4CE5E2266FB3;
+struct GameObjectU5BU5D_tBF9D474747511CF34A040A1697E34C74C19BB520;
 struct GradientAlphaKeyU5BU5D_t6907BD924111274532A9E85C9426951DF1C6FB4B;
 struct KeyframeU5BU5D_tF4DC3E9BD9E6DB77FFF7BDC0B1545B5D6071513D;
 struct LightU5BU5D_t0127F29C5C02312DE2DDA721E3AF8CE925297D45;
@@ -9856,6 +9859,43 @@ public:
 	inline void SetAtUnchecked(il2cpp_array_size_t index, FrameTiming_tAF2F0C7558BD0631E69FC0D0A5ADCE90EDC166FC  value)
 	{
 		m_Items[index] = value;
+	}
+};
+// UnityEngine.GameObject[]
+struct GameObjectU5BU5D_tBF9D474747511CF34A040A1697E34C74C19BB520  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * m_Items[1];
+
+public:
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
 // UnityEngine.GradientAlphaKey[]
@@ -26079,6 +26119,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_tag_mEF09E323917FAA2CECA5
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (GameObject_set_tag_mEF09E323917FAA2CECA527F821111A92031C1138_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::set_tag(System.String)");
 	_il2cpp_icall_func(__this, ___value0);
+}
+// UnityEngine.GameObject[] UnityEngine.GameObject::FindGameObjectsWithTag(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tBF9D474747511CF34A040A1697E34C74C19BB520* GameObject_FindGameObjectsWithTag_mF49A195F19A598C5FD145FFE175ABE5B4885FAD9 (String_t* ___tag0, const RuntimeMethod* method)
+{
+	typedef GameObjectU5BU5D_tBF9D474747511CF34A040A1697E34C74C19BB520* (*GameObject_FindGameObjectsWithTag_mF49A195F19A598C5FD145FFE175ABE5B4885FAD9_ftn) (String_t*);
+	static GameObject_FindGameObjectsWithTag_mF49A195F19A598C5FD145FFE175ABE5B4885FAD9_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_FindGameObjectsWithTag_mF49A195F19A598C5FD145FFE175ABE5B4885FAD9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::FindGameObjectsWithTag(System.String)");
+	GameObjectU5BU5D_tBF9D474747511CF34A040A1697E34C74C19BB520* retVal = _il2cpp_icall_func(___tag0);
+	return retVal;
 }
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SendMessage_mB9147E503F1F55C4F3BC2816C0BDA8C21EA22E95 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, String_t* ___methodName0, RuntimeObject * ___value1, int32_t ___options2, const RuntimeMethod* method)
